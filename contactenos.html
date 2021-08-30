@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+				<meta charset="utf-8">
+				<meta name="description" content="Estetica y Peluqueria `Athalia`, Ubicada en la ciudad de Riobamba ofrece a su distinguida clientela un servicio de belleza, con personal debidamente capacitado en en area de estetica personal">
+				<meta name="keywords" content="belleza, peluqueria, corte de cabello, estetica">
+				<meta name="autor" content="Msc Jonny Pilco">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+				<title>Estetica-Athalia</title>
+				
+				<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
+				<link rel="stylesheet" href="css/normalice.css">
+				<link rel="stylesheet" href="css/style.css">
+				<link rel="shortcut icon"  href="img/logo1.png">
+				<script src="https://kit.fontawesome.com/c5e3f27456.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header class="cabecera">
+		<div class="container">
+			<a href="index.html" class="link-logo">
+				<img class="logo" src="img/logo.png" width="512" height="512">
+			</a>
+
+			<nav class="menu">
+				<a href="index.html#inicio"> Inicio </a>
+				<a href="nosotros.html"> Nosotros </a>
+				<a href="index.html#productos"> Productos </a>
+				<a href="contactenos.html" class="seleccionado"> Contactenos </a>
+			</nav>
+			<a href="#" class="hamb"><i class="fas fa-bars"></i></a>
+		</div>
+	</header>
+	<section id="banner" class="banner-contactenos">
+		<img class="banner-home" src="img/banner-nosotros2.jpg" width="4000" height="6000">
+		<div class="container" >
+			<div class="fila fila-centrada">
+				<div class="columna columna-mb-100">
+					<h1 class="centrar-texto">Contactenos</h1>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="saltarina"> <i class="fas fa-angle-double-down"></i></a>
+	</section>
+
+	<section id="contactenos" class="seccion">
+		<div class="container">
+			<div class="fila">
+				<div class="columna columna-50 columna-mb-100 texto-derecha columna-info-contacto orden">
+					<p> formulario de contacto para los clientes</p>
+					<h2> 10 de agosto y carabobo,  Riobamba-Ecuador</h2>
+					<a href="tel:+593962757366" class="telefono">0962757366</a>
+					<a href="jonnypilco9@gmail.com" class="email"> jonnypilco9@gmail.com</a>
+				</div>
+				<div class="columna columna-50 columna-mb-100">
+					<form id="frmcontacto" action="registro.php" method="post">
+						<div class="form-bloques">
+							<input class="form-input" type="text" placeholder="Nombre" name="nombre" required>
+						</div>
+						<div class="form-bloques">
+							<input class="form-input" type="text" placeholder="Email" name="email" required>
+						</div>
+						<div class="form-bloques">
+							<input class="form-input" type="text" placeholder="Asunto" name="asunto" required>
+						</div>	
+						<div class="form-bloques">
+							<textarea class="form-input" placeholder="mensaje" name="mensaje"></textarea>
+						</div>
+						<div class="form-bloques form-bloque-boton">
+							<input type="submint" value="ENVIAR" class="btn ">
+						</div>					
+					</form>
+				</div>
+			</div>
+		</div>					
+	</section>
+	<footer>
+		<div class="pie">
+			<div class="container">
+				<div class="fila">
+					<div class="columna columna-33 empujar-33 columna-mb-100 empujar-mb-0 orden lista-redes">
+						<a href="#"><i class="fab fa-facebook-square"></i></a>
+						<a href="#"><i class="fab fa-instagram-square"></i></a>
+						<a href="#"><i class="fab fa-whatsapp-square"></i></a>
+					</div>
+					<div class="columna columna-33 columna-mb-100" >
+						&reg; Derechos reservados 2021
+					</div>	
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/funciones.js"></script>
+</body>
+</html>
